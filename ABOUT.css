@@ -1,0 +1,78 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body
+{
+    text-align: center;
+   
+}
+header{
+    height: 135px;
+    background-color: dimgrey;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 50px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightblue;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 125px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin: 0 10px;
+    color:  lightblue;
+}
+.about{
+    
+    top: 150px;
+    position: absolute;
+    overflow:visible;
+}
+.about h1{
+    padding-top: 3%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+}
+.about h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+    position: absolute;
+    width: 1530px;
+    font-weight: 550;
+    padding-right: 1%;
+    text-transform: uppercase;
+}
+.about h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 30px;
+    text-align: justify;
+    position: absolute;
+    width: 1490px;
+    padding-top: 10px;
+    font-weight:520;
+
+}
